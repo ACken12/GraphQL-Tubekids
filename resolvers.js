@@ -4,7 +4,6 @@ const Kids = require('../server/models/kidsModel');
 const Video = require('../server/models/VideoModel');
 const User = require('../server/models/UserModel');
 const mongoose = require('../node_modules/mongoose');
-const userId = new mongoose.Types.ObjectId("66122539b8f20a6b79c266a2");
 
 const resolvers = {
     Query: {
